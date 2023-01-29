@@ -2,7 +2,7 @@
 
 This is a basic template repository for a python project. 
 
-Change the `package_name` in: `pyproject.toml` to the name of your package (doing a search and replace for the default string `mprib_tools` being careful to check folder and file names) *`NOTE` - This is pretty clunky and will be automated via a [cookiecutter](https://github.com/cookiecutter/cookiecutter) template "soon."*
+Change the `package_name` in: `pyproject.toml` to the name of your package (doing a search and replace for the default string `orbital` being careful to check folder and file names) *`NOTE` - This is pretty clunky and will be automated via a [cookiecutter](https://github.com/cookiecutter/cookiecutter) template "soon."*
 
 
 You'll also want to change the `name`, `email` etc in `pyproject.toml` and `{repository_name}.__init__.py` to your own details.
