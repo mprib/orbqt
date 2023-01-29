@@ -2,7 +2,7 @@ from datetime import datetime
 import time
 from pathlib import Path
 
-from orbital import __package_name__
+from orbqt import __package_name__
 
 BASE_FOLDER_NAME = f"{__package_name__}_data"
 LOGS_INFO_AND_SETTINGS_FOLDER_NAME = "logs_info_and_settings"

@@ -1,6 +1,6 @@
 """Top-level package for basic_template_repo."""
 
-__package_name__ = "orbital"
+__package_name__ = "orbqt"
 __version__ = "0.0.0"
 
 __author__ = """Mac Prible"""
@@ -16,8 +16,8 @@ print(f"Thank you for using {__package_name__}!")
 print(f"This is printing from: {__file__}")
 print(f"Source code for this package is available at: {__repo_url__}")
 
-from orbital.system.default_paths import get_log_file_path
-from orbital.system.logging_configuration import configure_logging
+from orbqt.system.default_paths import get_log_file_path
+from orbqt.system.logging_configuration import configure_logging
 
 
 configure_logging(log_file_path=get_log_file_path())

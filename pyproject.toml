@@ -5,7 +5,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "orbital" #change this to your project name (do a global search and replace for this string, including folder names)
+name = "orbqt" #change this to your project name (do a global search and replace for this string, including folder names)
 description = "3D motion capture vizualizer implemented in PyQt"
 readme = "README.md"
 authors = [{ name = "Mac Prible", email = "prible@gmail.com" }]
@@ -41,9 +41,9 @@ push            = true
 
 [tool.bumpver.file_patterns]
 "pyproject.toml" = ["{version}"]
-"orbital/__init__.py" = ["{version}"]
+"orbqt/__init__.py" = ["{version}"]
 
 
 [project.scripts]
-orbital = "orbital.__main__:main"
+orbqt = "orbqt.__main__:main"
 
